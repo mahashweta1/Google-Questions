@@ -17,10 +17,26 @@ public class Main {
 //        ArrayList<String> str = new ArrayList<>();
 //        str.add("?"); str.add("?"); str.add("?");
 //        s.recurrsion(str, 0);
-        ArrayList<String> str = new ArrayList<>();
-        str.add("pintu"); str.add("geeksfor"); str.add("geeksgeeks"); str.add("forgeek");
-        FindLargestWordInDictionaryByDeletingSomeCharacters s = new FindLargestWordInDictionaryByDeletingSomeCharacters();
-        System.out.println(s.solution(str, "uytpintuiop"));
+//        ArrayList<String> str = new ArrayList<>();
+//        str.add("pintu"); str.add("geeksfor"); str.add("geeksgeeks"); str.add("forgeek");
+//        FindLargestWordInDictionaryByDeletingSomeCharacters s = new FindLargestWordInDictionaryByDeletingSomeCharacters();
+//        System.out.println(s.solution(str, "uytpintuiop"));
+
+//        BinaryTree bt = new BinaryTree();
+//        bt.createRootNode();
+//        bt.printBTData();
+
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.createRootNode();
+        bst.insert(8);
+        bst.insert(3);
+        bst.insert(9);
+        bst.insert(14);
+        bst.insert(12);
+        bst.insert(15);
+        bst.Display();
+
+
 
     }
 }
