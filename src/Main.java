@@ -26,15 +26,31 @@ public class Main {
 //        bt.createRootNode();
 //        bt.printBTData();
 
-        BinarySearchTree bst = new BinarySearchTree();
-        bst.createRootNode();
-        bst.insert(8);
-        bst.insert(3);
-        bst.insert(9);
-        bst.insert(14);
-        bst.insert(12);
-        bst.insert(15);
-        bst.Display();
+//        BinarySearchTree bst = new BinarySearchTree();
+//        bst.createRootNode();
+//        bst.insert(8);
+//        bst.insert(3);
+//        bst.insert(9);
+//        bst.insert(14);
+//        bst.insert(12);
+//        bst.insert(15);
+//        bst.Display();
+
+        ImplementQueueWithStacks q = new ImplementQueueWithStacks();
+        q.push(2);
+        q.push(3);
+        q.push(10);
+        q.push(8);
+        q.push(100);
+        q.push(7);
+        System.out.println(q.pop());
+        System.out.println(q.pop());
+        System.out.println(q.pop());
+        q.push(12);
+        q.push(14);
+        q.push(0);
+        System.out.println(q.pop());
+        System.out.println(q.pop());
 
 
 
